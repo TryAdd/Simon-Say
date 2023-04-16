@@ -1,0 +1,51 @@
+body {
+    background-color: #011F3F;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .red {
+    background-color: #FF4136;
+  }
+  
+  .blue {
+    background-color: #0074D9;
+  }
+  
+  .green {
+    background-color: #2ECC40;
+  }
+  
+  .yellow {
+    background-color: #FFDC00;
+  }
+  
+  .pressed {
+    transform: scale(0.9);
+    box-shadow: 0 0 10px black;
+  }
+  
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .game-over {
+    background-color: #FF4136;
+  }
